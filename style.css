@@ -1,0 +1,347 @@
+html{height: 100%;
+}
+
+body  {
+	background: #FFFFFF;
+	color: #000000;
+	margin: 0;
+	font-family:'IBM Plex Sans', sans-serif;
+	font-weight: 300 ;
+}
+
+footer {
+	padding: 0 40px;
+    background-color: black;
+}
+
+h1, h2, h4, h5 {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500 ;
+}
+
+h2 {
+	margin-left: 55px;
+	font-size: 50px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500 ;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-family: font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500 ;
+}
+
+ul {
+	font-family: font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 300;
+}
+
+/* First container */
+
+#top {
+		background-color:#FFF2D9 ;}
+
+#top-images {
+	width: 100%;
+	height: 820px;
+	display: inline-flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	overflow: hidden;
+}
+
+.top-image {
+	flex: none;
+	height: 100vh;
+	background-size: cover;
+}
+ 
+.spacing {
+	flex: 1 0 300px;
+}
+
+#logo-top {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.logo-position {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	align-items: baseline;
+}
+
+.top-position {
+	padding: 32px;
+}
+
+.btn-login {
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);  
+	border-radius: 16px;
+	padding: 10px;
+	line-height: 16px;
+	font-size: 14px;
+	background: white;
+	color: black;
+	cursor: pointer;
+	margin: 20px;
+	border:none;
+}
+
+#look {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.center {
+    width: 100%;
+    align-items: center;
+    top: 35%;
+    position: relative;
+}
+
+#box{ display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	}
+
+.adresse{ 
+
+	padding: 20px;
+	width: 500px;
+	margin-left: 55px;
+	font-size: 17px;
+	border-style: none;
+}
+
+.livraison{ 
+
+	padding: 20px;
+	width: 200px;
+	margin-left: 20px;
+	font-size: 17px;
+	border-style: none;
+}
+
+.findresto{ 
+	padding: 20px;
+	margin-left: 20px;
+	font-size: 17px;
+	background-color: black;
+	border-style: none;
+}
+
+#infologin{
+	margin-left: 55px;
+	font-size: 11px;
+	}
+
+/* Container 2  */
+
+.second-container {
+	padding: 0 40px;
+}
+
+.resto-header {
+	padding: 30px 0;
+	margin: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+	}
+
+.resto-header .title {
+	line-height: 44px;
+	font-size: 36px;
+	margin: 0;
+	font-weight: normal;
+}
+
+.arrow.btn {
+	color: black;
+    background: #F1F1F1;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+	border: none;
+}
+
+.restocontainer {
+    display: flex;
+    flex-wrap: nowrap;
+  	flex-direction: row;
+	margin-left: -42px;
+    width: 100%;
+    background-color: white;
+}
+
+.interet {
+    flex: 0 1 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.interet img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    flex: 0 1 20%;
+    flex-flow: row wrap;
+}
+
+/* container 3 "plus de fonctionnalités" */
+
+.espace{ display: block;
+		background-color: white;
+		height: 80px;
+ }
+
+ #center { 
+	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+}
+
+ .spaceios{
+	margin: 15px;
+}
+
+.btnios { 
+	box-shadow: none;
+	background: #EEEEEE;
+	margin: 12px;
+	display: inline-flex;
+	align-items: center;
+	padding: 2px 6px;
+}
+
+.padimg{ 
+	padding: 5px; 
+}
+
+/* container 4 */
+
+#uberpro {
+	display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.photo-width { 
+	width: 32%;
+}
+
+.styleone {
+	margin: 10px 0 8px;
+	line-height: 36px;
+	font-size: 28px;
+}
+
+.styletwo {
+	color: black;
+}
+
+
+/* container 5 */
+
+#position {
+	display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: -10px;
+}
+
+#villepos {
+	text-decoration: underline;
+	white-space: nowrap; 
+	padding-top: 33px;
+}
+
+.villesdiv {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list {
+    list-style: none;
+}
+
+.padlist{
+	padding: 15px 0;
+}
+
+/* footer */
+
+#footerone{
+	background-color: black; 
+	display: flex;
+	justify-content: space-around;
+	padding: 72px 0px 0px;
+	background-size: 0, auto;
+}
+
+ .footer-container {
+    display: inline-flex;
+    flex: 0 0 50%;
+    justify-content: space-between;
+ }
+
+.footer-container .list {
+	width: 100%;
+	color: white;
+}
+
+.flex-dir-col {
+	flex-direction: column;
+}
+
+.footerlogo{
+	width: 146px;
+	height: 24px;
+}
+
+.padbold{
+}
+
+.containersn {
+	display: flex;
+	flex-direction: row;
+	padding: 15px;
+}
+
+.socialnet{margin-left: 5px;
+	margin-right: 5px;
+}
+
+.footer-infos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer-last {
+	color: white;
+	font-size: 14px;
+	padding: 15px;
+ }
+
+
+
+
+
